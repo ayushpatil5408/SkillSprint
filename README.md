@@ -42,25 +42,29 @@ The platform features a modern, tactile **Dark Cyan Claymorphic** aesthetic blen
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16+ recommended)
+- Node.js (v16+ recommended) OR Python (3.9+) with `streamlit`
 
 ### Running Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ayushpatil5408/SkillSprint.git
-   cd SkillSprint
-   ```
+**Option A: Using Node.js**
+```bash
+node server.js
+# Open http://localhost:3000
+```
 
-2. **Start the local server:**
-   ```bash
-   node server.js
-   ```
+**Option B: Using Streamlit**
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+# Open http://localhost:8501
+```
 
-3. **Open in your browser:**
-   ```
-   http://localhost:3000
-   ```
+### ☁️ Deploying on Streamlit Community Cloud
+
+1. Head to [share.streamlit.io](https://share.streamlit.io).
+2. Connect your GitHub account and select repository `ayushpatil5408/SkillSprint`.
+3. Set **Main file path** to `streamlit_app.py`.
+4. Click **Deploy!** — Streamlit Cloud installs `requirements.txt` and serves the app with full Claymorphic styling.
 
 ---
 
